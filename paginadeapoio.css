@@ -8,20 +8,24 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
+div {margin-bottom: 60px;}
+
 div.vogais {width: 40%;}
 
 div#pagina { 
     background-color: white;
     width: 60%;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
  }
-
- header {background-color: white;}
 
  div:last-child {text-align: center;}
 
  body {background-image: url("cherry\ blossom2.jpg");
     background-repeat: repeat;
+    font-family: 'Indie Flower', cursive;
 }
 
 img:hover {
