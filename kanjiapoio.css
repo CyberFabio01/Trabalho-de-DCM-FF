@@ -1,0 +1,91 @@
+/* turma.css */
+
+body { background-image: url("monte\ fuji.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+}
+
+.numero { 
+        font-size: 1.6em;
+        font-weight: 700;
+      }
+
+.romanji {
+         font-size:1.2em;
+         font-weight: 300;
+        }   
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius:60%;
+    overflow:hidden;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+li { 
+    width: 30%;
+    margin-bottom: 60px;
+    display:flex;
+    align-items: center;
+}
+
+div.foto { margin-right: 32px;
+    background-color: white;
+    width: 60%;
+}
+
+div.info { 
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 60%;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            border-radius:50%;
+            overflow:hidden;
+        }
+
+
+div.foto { 
+            width: 140px;
+            height: 140px;
+            border-radius:50%;
+            overflow:hidden;
+
+            display: flex;
+            align-items: center;
+         }
+
+/* Pontos de Quebra
+   Media Queries
+*/  
+
+@media ( max-width:1200px )
+{
+    li { width: 45%; }
+}
+
+@media ( max-width: 900px )
+{
+    li { width: 90%; }
+}
+
+@media ( max-width:500px )
+{
+    li { flex-direction: column;}
+
+    .romanji { text-align: center;}
+}
