@@ -15,8 +15,7 @@ img {
         margin-bottom: 60px;
      }
     
-     div#mudardepagina {display: flex;
-        flex-wrap: wrap;
+     div#mudardepagina {flex-wrap: wrap;
         justify-content: center;
             background-color: white;
             width: 60%;
