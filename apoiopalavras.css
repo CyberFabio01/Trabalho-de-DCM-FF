@@ -1,4 +1,4 @@
-/* turma.css */
+
 
 body { background-image: url("paisagem.jpg");
     background-repeat: no-repeat;
@@ -15,6 +15,10 @@ body { background-image: url("paisagem.jpg");
          font-size:1.2em;
          font-weight: 300;
         }   
+
+.ajustar {
+    max-width: 100%;
+}
 
 header {
     display: flex;
@@ -35,7 +39,7 @@ ul {
 } 
 
 li { 
-    width: 30%;
+    width: 25%;
     margin-bottom: 60px;
     display:flex;
     align-items: center;
@@ -45,6 +49,7 @@ div.foto { margin-right: 32px;
     background-color: white;
     width: 60%;
     justify-content: center;
+    max-width: 100%;
 }
 
 div.info { 
@@ -54,7 +59,6 @@ div.info {
             width: 30%;
             text-align: center;
             margin-right: auto;
-            margin-left: auto;
             border-radius:15%;
             overflow:hidden;
         }
@@ -70,6 +74,17 @@ div.foto {
          }
 
  
+         div.infomore { 
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 30%;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            border-radius:15%;
+            overflow:hidden;
+        }
 
 @media ( max-width:1200px )
 {
